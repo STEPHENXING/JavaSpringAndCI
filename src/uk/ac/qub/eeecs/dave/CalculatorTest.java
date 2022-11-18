@@ -1,3 +1,4 @@
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,7 +9,7 @@ class CalculatorTest {
 	@Test
 	void testAdd() {
 		Calculator c = new Calculator();
-		assertEquals(c.add(10,1), 11);
+		assertEquals(c.add(10,1), 12);
 	}
 
 	@Test
